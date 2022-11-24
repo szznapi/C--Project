@@ -1,14 +1,14 @@
 # C++Project
  Recoloring image project
  
- About ::
-This project require magic to work
-literally a Magic++ library
-Magic is used to load/ write file
-Finding closest pixel is used by query in kD tree 
-Kd tree used is simple 3d binary tree with 0,0,0 as root,
-all pixels in image are represented by their RGB values 
-Sorting unique pixels is done by simpli adding them to std::set
+ About :
+This project require magic to work.
+Literally a Magic++ library.
+Magic++ is used to load/ write image files and get pixels RGB values.
+Finding closest pixel is used by query in kD tree. 
+Kd tree is simple 3d binary tree with 0,0,0 as root,
+with all uniques pixels as tree nodes.
+Sorting unique pixels is done by simply adding them to std::set
 
 
 Things to do ::
